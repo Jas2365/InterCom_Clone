@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+.inbox-container {
+  @apply flex absolute top-2 left-76 w-80 h-[98vh] bg-white;
+}
+.inbox-column {
+  @apply w-full border-r-2 border-r-gray-200 bg-white flex flex-col;
+}
+.inbox-column .heading {
+  @apply flex flex-row items-center border-b-2 h-16 border-b-gray-200;
+}
+.inbox-column .heading h2 {
+  @apply font-bold text-xl px-4;
+}
+.conversation-tab {
+  @apply flex w-80;
+}
+.profile-body {
+  @apply flex mx-2 w-76 my-2 py-2 rounded-2xl cursor-pointer;
+}
+.profile-icon {
+  @apply flex w-6 m-2 justify-center items-center text-4xl;
+}
+.profile-heading {
+  @apply flex flex-col w-full px-2;
+}
+.profile-name {
+  @apply text-[16px] py-1 font-medium;
+}
+.profile-info {
+  @apply flex flex-row justify-between;
+}
+.profile-recent {
+  @apply text-[14px]  text-gray-600;
+}
+.profile-timestamp {
+  @apply text-[16px] text-gray-600;
+}

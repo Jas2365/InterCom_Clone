@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+.messenger-container {
+  @apply absolute flex flex-col top-2 left-[624px] w-160 h-[98vh] border-r-2 border-r-gray-200;
+}
+.heading-container {
+  @apply p-2 flex justify-between h-16 border-b-2 border-b-gray-200;
+}
+.heading-container .heading {
+  @apply font-bold text-2xl flex items-center border-0 p-0;
+}
+.heading-container .heading-buttons {
+  @apply flex flex-row justify-around items-center my-0 mx-2 p-0 w-1/2;
+}
+.heading-buttons .icons {
+  @apply w-10 h-10 flex justify-center items-center rounded-md mx-1 bg-gray-200;
+}
+.chat-container {
+  @apply flex flex-col flex-1 overflow-y-auto p-4 bg-white justify-end;
+}
+.chat-receiver {
+  @apply flex mb-2 justify-end;
+}
+.receiver-container {
+  @apply bg-blue-100 rounded-lg p-2 w-fit;
+}
+.status-container .status-message {
+  @apply bg-yellow-100 rounded-lg p-2 w-fit;
+}
+.chat-status {
+  @apply flex mb-2 justify-end;
+}
+.timestamp-receiver {
+  @apply text-xs text-gray-400 mt-1;
+}
+.message-input-container {
+  @apply flex flex-col justify-center items-center bg-white;
+}
+.message-input-area {
+  @apply flex flex-col border-2 border-gray-200 rounded-2xl p-4 m-4 shadow-gray-400 shadow-xl h-40 w-140 items-center gap-2;
+}
+.message-input-area input {
+  @apply w-full grow border-0 outline-0 rounded-lg px-3 py-2;
+}
+.misc-btn-container {
+  @apply flex w-full justify-between;
+}
+.misc-btn {
+  @apply flex justify-center items-center py-0;
+}
+.misc-btn-container .misc-btn .btns {
+  @apply p-2;
+}

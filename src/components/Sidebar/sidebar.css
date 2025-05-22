@@ -1,0 +1,23 @@
+@import "tailwindcss";
+.sidebar {
+  @apply absolute transition-transform duration-200 ease-in left-12 top-2 bottom-2 w-64 bg-[#f1f1f1] border-r border-gray-200 h-[98vh] p-4 flex flex-col;
+}
+.title {
+  @apply font-bold text-xl mb-6;
+}
+.group-title {
+  @apply flex items-center justify-between  text-[14px] text-black font-extrabold mb-2 cursor-pointer;
+}
+.items {
+  @apply flex items-center justify-between px-2 py-0.5 rounded-lg cursor-pointer mb-1 transition-colors ease-in duration-100
+  font-bold;
+}
+.icon {
+  @apply text-sm;
+}
+.label {
+  @apply flex items-center text-[14px] gap-2;
+}
+.count {
+  @apply text-xs px-2 py-0.5 ml-2;
+}
