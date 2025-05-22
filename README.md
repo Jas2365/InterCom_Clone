@@ -2,7 +2,7 @@
 
 This project is a clone of the Intercom web application, built using **Vite**, **React**, **TypeScript** and **Tailwind CSS** . It replicates the core UI and basic interaction patterns of Intercom, including sidebar navigation, inbox management, chat/messenger interface, and details panel.
 
-## Screenshot
+## Screenshot(reference)
 
 ![App Screenshot](public/cloneUI.png)
 
